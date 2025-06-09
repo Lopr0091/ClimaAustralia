@@ -1,0 +1,5 @@
+datos_climaticos:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/weatherAUS.csv
+  load_args:
+    encoding: utf-8
