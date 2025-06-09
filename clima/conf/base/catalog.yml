@@ -3,3 +3,7 @@ datos_climaticos:
   filepath: data/01_raw/weatherAUS.csv
   load_args:
     encoding: utf-8
+
+datos_limpios:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/datos_limpios.csv
